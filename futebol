@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalPost - Times Brasileiros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="menu-icon">â˜°</div>
+    <h1>GoalPost</h1>
+  </header>
+
+  <!-- 3 fotos abaixo do topo -->
+  <div class="grid promo">
+    <img src="https://images.tcdn.com.br/img/img_prod/734952/camisa_puma_palmeiras_pre_jogo_masculino_branco_e_verde_8751_1_857afac54635aa32081b28219d3bd410.jpg" 
+         alt="Camisa prÃ©-jogo do Palmeiras branca e verde">
+    <img src="https://static.shopvasco.com.br/produtos/camisa-vasco-ii-2425-sn-jogador-kappa-masculina/28/D24-5949-028/D24-5949-028_zoom1.jpg?ts=1761841212" 
+         alt="Camisa oficial do Vasco da Gama 2024/2025 branca">
+    <img src="https://static.netshoes.com.br/produtos/camisa-cruzeiro-2526-sn-fanshirt-adidas-masculina/58/FBA-6936-058/FBA-6936-058_zoom1.jpg?ts=1761966726" 
+         alt="Camisa oficial do Cruzeiro Adidas 2025 azul">
+  </div>
+
+  <div class="search">
+    ðŸ”<input type="text" placeholder="Pesquisar camisas ou clubes">
+  </div>
+
+  <div class="grid">
+    <img src="https://images.tcdn.com.br/img/img_prod/734952/camisa_puma_palmeiras_pre_jogo_masculino_branco_e_verde_8751_1_857afac54635aa32081b28219d3bd410.jpg" 
+         alt="Camisa do Palmeiras prÃ©-jogo branca e verde da Puma">
+    <img src="https://static.shopvasco.com.br/produtos/camisa-vasco-ii-2425-sn-jogador-kappa-masculina/28/D24-5949-028/D24-5949-028_zoom1.jpg?ts=1761841212" 
+         alt="Camisa do Vasco 2024/25 modelo jogador Kappa branca">
+    <img src="https://static.netshoes.com.br/produtos/camisa-cruzeiro-2526-sn-fanshirt-adidas-masculina/58/FBA-6936-058/FBA-6936-058_zoom1.jpg?ts=1761966726" 
+         alt="Camisa do Cruzeiro Adidas 2025 azul com detalhes">
+    <img src="https://static.saostore.com.br/produtos/camisa-sao-paulo-home-2526-ruan-n-22-torcedor-new-balance-masculina/06/39V-1993-006/39V-1993-006_zoom2.jpg?ts=1743422786&ims=544x" 
+         alt="Camisa do SÃ£o Paulo titular 2025/26 New Balance branca com faixas tricolores">
+  </div>
+
+  <nav>
+    <button title="PÃ¡gina inicial">ðŸ </button>
+    <button title="Carrinho de compras">ðŸ›’</button>
+    <button title="Perfil do usuÃ¡rio">ðŸ‘¤</button>
+  </nav>
+</body>
+</html>
