@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalPost</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="menu-icon">☰</div>
+    <h1>GoalPost</h1>
+  </header>
+
+  <!-- 3 fotos abaixo do topo -->
+  <div class="grid promo">
+    <img src="https://via.placeholder.com/300x150?text=Promoção+1" alt="Imagem da promoção 1 com destaque de produtos esportivos">
+    <img src="https://via.placeholder.com/300x150?text=Promoção+2" alt="Imagem da promoção 2 com produtos esportivos em oferta">
+    <img src="https://via.placeholder.com/300x150?text=Promoção+3" alt="Imagem da promoção 3 com acessórios esportivos">
+  </div>
+
+  <div class="search">
+    🔍<input type="text" placeholder="Pesquisar produtos ou categorias">
+  </div>
+
+  <div class="grid">
+    <img src="https://imgcentauro-a.akamaihd.net/900x900/95044231A2.jpg" alt="Camisa oficial do Brooklyn Nets preta">
+    <img src="https://imgnike-a.akamaihd.net/900x900/02316915.jpg" alt="Camisa oficial do Golden State Warriors azul">
+    <img src="https://static.netshoes.com.br/produtos/camisa-nike-selecao-brasileira-ii-2024-torcedor-pro-masculina/06/2IC-7454-006/2IC-7454-006_zoom1.jpg" alt="Camisa oficial da Seleção Brasileira verde">
+    <img src="https://images.tcdn.com.br/img/img_prod/1044362/camisa_nba_boston_celtics_nike_association_edition_swingman_jersey_branca_jaylen_brown_7_2093_1_3afcf8e1a7e888559cc157174d17d2e4.jpg" alt="Camisa oficial do Boston Celtics branca">
+  </div>
+
+  <nav>
+    <button title="Página inicial">🏠</button>
+    <button title="Carrinho de compras">🛒</button>
+    <button title="Perfil do usuário">👤</button>
+  </nav>
+</body>
+</html>
