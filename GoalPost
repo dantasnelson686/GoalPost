@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Supply Express</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>☰</div>
+    <h1>Supply Express</h1>
+  </header>
+
+  <div class="search">
+    🔍<input type="text" placeholder="Pesquisar">
+  </div>
+
+  <div class="grid">
+    <img src="https://via.placeholder.com/150x120?text=Vinhos" alt="Vinhos">
+    <img src="https://via.placeholder.com/150x120?text=Temperos" alt="Temperos">
+    <img src="https://via.placeholder.com/150x120?text=Café" alt="Café">
+    <img src="https://via.placeholder.com/150x120?text=Massas" alt="Massas">
+  </div>
+
+  <h2>Fornecedores salvos</h2>
+  <div class="fornecedor">Principal loja 1</div>
+  <div class="Principal loja 2">Principal loja 2</div>
+
+  <nav>
+    <button>🏠</button>
+    <button>🛒</button>
+    <button>👤</button>
+    <button>⋯</button>
+  </nav>
+</body>
+</html>
