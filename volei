@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalPost - Vôlei</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="menu-icon">☰</div>
+    <h1>GoalPost</h1>
+  </header>
+
+  <!-- 3 fotos abaixo do topo -->
+  <div class="grid promo">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lugg9gdtjyatc4" alt="Promoção de artigos de vôlei com bolas e redes em destaque">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lugg9gdtlcv9dd" alt="Imagem promocional com atletas jogando vôlei e produtos em oferta">
+    <img src="https://images.tcdn.com.br/img/img_prod/311840/camisa_errea_italia_volei_home_2017_43794_2_20210806224347.jpg" alt="Camisa oficial da seleção italiana de vôlei azul">
+  </div>
+
+  <div class="search">
+    🔍<input type="text" placeholder="Pesquisar produtos ou categorias de vôlei">
+  </div>
+
+  <div class="grid">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lugg9gdtjyatc4" alt="Camisa de vôlei branca com detalhes azuis">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lugg9gdtlcv9dd" alt="Camisa de vôlei azul com estampa esportiva">
+    <img src="https://images.tcdn.com.br/img/img_prod/311840/camisa_errea_italia_volei_home_2017_43794_2_20210806224347.jpg" alt="Camisa oficial da seleção italiana de vôlei azul">
+    <img src="https://cdn.dooca.store/143060/products/hlnu0fish4mnsipwvv64bmvrtnjlnqgvlgih_640x640+fill_ffffff.jpg?v=1708527834&webp=0" alt="Camisa de vôlei amarela com design moderno e esportivo">
+  </div>
+
+  <nav>
+    <button title="Página inicial">🏠</button>
+    <button title="Carrinho de compras">🛒</button>
+    <button title="Perfil do usuário">👤</button>
+  </nav>
+</body>
+</html>
