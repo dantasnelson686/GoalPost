@@ -3,44 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GoalPost - Times Brasileiros</title>
-  <link rel="stylesheet" href="style.css">
+  <title>GoalPost</title>
+  <link rel="stylesheet" href="basquete.css">
 </head>
 <body>
   <header>
-    <div class="menu-icon">â˜°</div>
+    <div class="menu-icon">☰</div>
     <h1>GoalPost</h1>
+    <br>
+    <h2>Items de Futebol</h2>
   </header>
 
-  <!-- 3 fotos abaixo do topo -->
-  <div class="grid promo">
-    <img src="https://images.tcdn.com.br/img/img_prod/734952/camisa_puma_palmeiras_pre_jogo_masculino_branco_e_verde_8751_1_857afac54635aa32081b28219d3bd410.jpg" 
-         alt="Camisa prÃ©-jogo do Palmeiras branca e verde">
-    <img src="https://static.shopvasco.com.br/produtos/camisa-vasco-ii-2425-sn-jogador-kappa-masculina/28/D24-5949-028/D24-5949-028_zoom1.jpg?ts=1761841212" 
-         alt="Camisa oficial do Vasco da Gama 2024/2025 branca">
-    <img src="https://static.netshoes.com.br/produtos/camisa-cruzeiro-2526-sn-fanshirt-adidas-masculina/58/FBA-6936-058/FBA-6936-058_zoom1.jpg?ts=1761966726" 
-         alt="Camisa oficial do Cruzeiro Adidas 2025 azul">
-  </div>
-
   <div class="search">
-    ðŸ”<input type="text" placeholder="Pesquisar camisas ou clubes">
+    🔍<input type="text" placeholder="Pesquisar produtos ou categorias">
   </div>
 
   <div class="grid">
-    <img src="https://images.tcdn.com.br/img/img_prod/734952/camisa_puma_palmeiras_pre_jogo_masculino_branco_e_verde_8751_1_857afac54635aa32081b28219d3bd410.jpg" 
-         alt="Camisa do Palmeiras prÃ©-jogo branca e verde da Puma">
-    <img src="https://static.shopvasco.com.br/produtos/camisa-vasco-ii-2425-sn-jogador-kappa-masculina/28/D24-5949-028/D24-5949-028_zoom1.jpg?ts=1761841212" 
-         alt="Camisa do Vasco 2024/25 modelo jogador Kappa branca">
-    <img src="https://static.netshoes.com.br/produtos/camisa-cruzeiro-2526-sn-fanshirt-adidas-masculina/58/FBA-6936-058/FBA-6936-058_zoom1.jpg?ts=1761966726" 
-         alt="Camisa do Cruzeiro Adidas 2025 azul com detalhes">
-    <img src="https://static.saostore.com.br/produtos/camisa-sao-paulo-home-2526-ruan-n-22-torcedor-new-balance-masculina/06/39V-1993-006/39V-1993-006_zoom2.jpg?ts=1743422786&ims=544x" 
-         alt="Camisa do SÃ£o Paulo titular 2025/26 New Balance branca com faixas tricolores">
+    <div class="camisadonets">
+      <img src="d:\Downloads\Camisa do Nets.avif" alt="Camisa oficial do Brooklyn Nets preta">
+      <p>Camisa do Brooklyn Nets preta.</p><br>
+      <p>R$ 475,00</p>
+    </div>
+    <div class="camisadowarriors">
+      <img src="https://imgnike-a.akamaihd.net/900x900/02316915.jpg" alt="Camisa oficial do Golden State Warriors azul">
+      <p>Camisa do Golden State Warriors azul.</p><br>
+      <p>R$ 575,00</p>
+    </div>    
+    <div class="camisabrasil">
+      <img src="https://static.netshoes.com.br/produtos/camisa-nike-selecao-brasileira-ii-2024-torcedor-pro-masculina/06/2IC-7454-006/2IC-7454-006_zoom1.jpg" alt="Camisa oficial da Seleção Brasileira verde">
+      <p>Camisa Nike Seleção Brasileira amarela.</p><br>
+      <p>R$ 300,00</p>
+    </div>  
+    <div class="camisaceltics">
+      <img src="https://images.tcdn.com.br/img/img_prod/1044362/camisa_nba_boston_celtics_nike_association_edition_swingman_jersey_branca_jaylen_brown_7_2093_1_3afcf8e1a7e888559cc157174d17d2e4.jpg" alt="Camisa oficial do Boston Celtics branca">
+      <p>Camisa Boston Celtics verde.</p><br>
+      <p>R$ 500,00</p>
+    </div>
   </div>
 
-  <nav>
-    <button title="PÃ¡gina inicial">ðŸ </button>
-    <button title="Carrinho de compras">ðŸ›’</button>
-    <button title="Perfil do usuÃ¡rio">ðŸ‘¤</button>
-  </nav>
+  <footer>
+    <f1>Todos os direitos conservados</f1>
+  </footer>
 </body>
 </html>
