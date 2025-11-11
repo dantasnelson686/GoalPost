@@ -1,83 +1,32 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f0f6ff;
-  color: #001f3f;
-  padding-bottom: 70px; /* Evita corte pelo menu fixo */
-}
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalPost</title>
+  <link rel="stylesheet" href="basquete.css">
+</head>
+<body>
+  <header>
+    <div class="menu-icon">☰</div>
+    <h1>GoalPost</h1>
+    <h2>Items de basquete</h2>
+  </header>
 
-header {
-  background: #0b63ff;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-}
+  <div class="search">
+    🔍<input type="text" placeholder="Pesquisar produtos ou categorias">
+  </div>
 
-header h1 {
-  flex: 1;
-  font-size: 22px;
-  margin: 0;
-  text-align: center;
-  font-weight: bold;
-}
+  <div class="grid">
+    <div class="camisadonets">
+      <img src="d:\Downloads\Camisa do Nets.avif" alt="Camisa oficial do Brooklyn Nets preta">
+      <p>Camisa do Brooklyn Nets preta.</p><br>
+      <p>R$ 475,00</p><div>
+      <img src="https://imgnike-a.akamaihd.net/900x900/02316915.jpg" alt="Camisa oficial do Golden State Warriors azul">
+      <img src="https://static.netshoes.com.br/produtos/camisa-nike-selecao-brasileira-ii-2024-torcedor-pro-masculina/06/2IC-7454-006/2IC-7454-006_zoom1.jpg" alt="Camisa oficial da Seleção Brasileira verde">
+      <img src="https://images.tcdn.com.br/img/img_prod/1044362/camisa_nba_boston_celtics_nike_association_edition_swingman_jersey_branca_jaylen_brown_7_2093_1_3afcf8e1a7e888559cc157174d17d2e4.jpg" alt="Camisa oficial do Boston Celtics branca">
+  </div>
 
-.menu-icon {
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-  margin: 15px;
-  background: white;
-  border-radius: 20px;
-  padding: 8px 12px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.search input {
-  border: none;
-  outline: none;
-  flex: 1;
-  font-size: 14px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  margin: 0 15px;
-}
-
-.grid img {
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-.promo {
-  margin-top: 15px;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: white;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
-}
-
-nav button {
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-  }
+  <footer>Todos os direitos conservados</footer>
+</body>
+</html>
