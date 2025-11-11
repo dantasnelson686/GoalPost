@@ -3,44 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GoalPost - Novas Camisas</title>
-  <link rel="stylesheet" href="style.css">
+  <title>GoalPost</title>
+  <link rel="stylesheet" href="tenis.css">
 </head>
 <body>
   <header>
     <div class="menu-icon">☰</div>
     <h1>GoalPost</h1>
+    <br>
+    <h2>Items de Tenis</h2>
   </header>
 
-  <!-- 3 fotos abaixo do topo -->
-  <div class="grid promo">
-    <img src="https://cdn.iset.io/assets/55131/produtos/442/thumb_400-400-imagem-do-whatsapp-de-2024-08-30-s-15.14.12-6d9a7118.jpg" 
-         alt="Camisa esportiva branca e verde em exibição">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjU78gnnwgi-S12kp_wegEGasSUho2c8Uog&s" 
-         alt="Camisa azul esportiva moderna">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_611064-MLB70739271492_072023-O-camisetacamisa-personalizada-jogar-tnis-tennis-esporte.webp" 
-         alt="Camisa personalizada de tênis com design leve e esportivo">
-  </div>
-
   <div class="search">
-    🔍<input type="text" placeholder="Pesquisar camisas esportivas">
+    🔍<input type="text" placeholder="Pesquisar produtos ou categorias">
   </div>
 
   <div class="grid">
-    <img src="https://cdn.iset.io/assets/55131/produtos/442/thumb_400-400-imagem-do-whatsapp-de-2024-08-30-s-15.14.12-6d9a7118.jpg" 
-         alt="Camisa branca e verde esportiva em destaque">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjU78gnnwgi-S12kp_wegEGasSUho2c8Uog&s" 
-         alt="Camisa azul estilosa para treinos e esportes">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_611064-MLB70739271492_072023-O-camisetacamisa-personalizada-jogar-tnis-tennis-esporte.webp" 
-         alt="Camisa personalizada de tênis esportiva">
-    <img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-lwxzgu1y2yozdc" 
-         alt="Camisa preta esportiva com design moderno">
+    <div class="camisaesportivatenis">
+      <img src="https://cdn.iset.io/assets/55131/produtos/442/thumb_400-400-imagem-do-whatsapp-de-2024-08-30-s-15.14.12-6d9a7118.jpg" alt="Camisa esportiva tenis 1">
+      <p>Camisa esportiva de tenis.</p><br>
+      <p>R$ 150,00</p>
+    </div>
+    <div class="camisaesportivatenis2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjU78gnnwgi-S12kp_wegEGasSUho2c8Uog&s" alt="Camisa esportiva.">
+      <p>Camisa esportiva.</p><br>
+      <p>R$ 130,00</p>
+    </div>    
+    <div class="camisaesportiva3">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_611064-MLB70739271492_072023-O-camisetacamisa-personalizada-jogar-tnis-tennis-esporte.webp" alt="Camisa personalizada tenis.">
+      <p>Camisa personalizada para jogar tenis..</p><br>
+      <p>R$ 140,00</p>
+    </div>  
+    <div class="camisaesportiva4">
+      <img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-lwxzgu1y2yozdc" alt="Camisa esportiva">
+      <p>Camiseta esportiva de tenis.</p><br>
+      <p>R$ 160,00</p>
+    </div>
   </div>
 
-  <nav>
-    <button title="Página inicial">🏠</button>
-    <button title="Carrinho de compras">🛒</button>
-    <button title="Perfil do usuário">👤</button>
-  </nav>
+  <footer>
+    <f1>Todos os direitos conservados</f1>
+  </footer>
 </body>
 </html>
